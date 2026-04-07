@@ -1,0 +1,9 @@
+{
+  "routes": [
+    { "src": "/api/db", "dest": "/api/db.js" },
+    { "src": "/api/create-payment", "dest": "/api/create-payment.js" },
+    { "src": "/api/check-payment", "dest": "/api/check-payment.js" },
+    { "src": "/api/generate-key", "dest": "/api/generate-key.js" },
+    { "src": "/(.*)", "dest": "/$1" }
+  ]
+}
